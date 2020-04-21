@@ -7,15 +7,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <style>
-        a.button {
-            margin: 20px 0;
+        .has-image-centered {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        strong {
+          margin-left: 10px;
         }
     </style>
   </head>
   <body>
-    <section class="hero is-medium is-success is-fullheight is-bold">
+    <section class="hero is-medium is-light is-fullheight">
         <div class="hero-body">
           <div class="container has-text-centered">
+            <figure class="image is-128x128 has-image-centered">
+              <img class="is-rounded" src="https://avatars1.githubusercontent.com/u/3679269?s=460&u=a843ea787c8d832cec4349c8feb7dcfad47280a0&v=4" alt="Foto de Sueldo Sales">
+            </figure>
+            <br>
             <a href="https://sueldosales.github.io/">
                 <h1 class="title">
                     Sueldo Sales
@@ -24,10 +33,22 @@
             <h2 class="subtitle">
                 Full-Stack Developer
             </h2>
-            <a href="https://sueldosales.github.io/" class="button is-success is-inverted is-outlined is-medium is-fullwidth">Meu Site</a>
-            <a href="https://psicologia.netlify.com/" class="button is-success is-inverted is-outlined is-medium is-fullwidth">PWA Psicologia</a>
-            <a href="https://santorosario.netlify.com/" class="button is-success is-inverted is-outlined is-medium is-fullwidth">PWA Santo Rosário</a>
-            <a href="https://consagrado.netlify.com/" class="button is-success is-inverted is-outlined is-medium is-fullwidth">PWA Consagrado</a>
+            <div class="columns">
+              <div class="column">
+                <a href="https://sueldosales.github.io/" class="button is-dark is-outlined is-medium is-fullwidth"><i class="fas fa-laptop-code"></i> <strong>Meu Site</strong></a>
+              </div>
+              <div class="column">
+                <a href="https://github.com/SueldoSales" class="button is-dark is-outlined is-medium is-fullwidth"><i class="fab fa-github"></i> <strong>Github</strong></a>
+              </div>              
+            </div>
+            <div class="columns">
+              <div class="column">
+                <a href="https://www.linkedin.com/in/sueldo-sales/" class="button is-dark is-outlined is-medium is-fullwidth"><i class="fab fa-linkedin"></i> <strong>Linkedin</strong></a>
+              </div>
+              <div class="column">
+                <a href="https://www.instagram.com/sueldosales/" class="button is-dark is-outlined is-medium is-fullwidth"><i class="fab fa-instagram"></i> <strong>Instagram</strong></a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
